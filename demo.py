@@ -26,7 +26,7 @@ with tab1:
 
     # 크롤링 진행 과정 
     def file_upload(f):
-        file_open = open(f'{f}', 'r')
+        file_open = open(f'{f}', 'rb')
         file_read = file_open.read()
         return file_read
 
