@@ -34,19 +34,19 @@ with tab1:
     st.markdown('코드 보여주고, 돌아가는 모습을 보여줄 예정입니다.')
 
     st.markdown('#### 👇 wanted')
-    f = 'wanted.mp4'
+    f = 'https://github.com/HongJaeMin/Streamlit_DS/blob/master/wanted.mp4'
     st.video(file_upload(f))
 
     st.markdown('#### 👇 saramin')
-    f = 'wanted.mp4'
+    f = 'https://github.com/HongJaeMin/Streamlit_DS/blob/master/wanted.mp4'
     st.video(file_upload(f))
 
     st.write('#### 👇 Jobplanet')
-    f = 'wanted.mp4'
+    f = 'https://github.com/HongJaeMin/Streamlit_DS/blob/master/wanted.mp4'
     st.video(file_upload(f))
 
     st.write('#### 👇 Incruit')
-    f = 'wanted.mp4'
+    f = 'https://github.com/HongJaeMin/Streamlit_DS/blob/master/wanted.mp4'
     st.video(file_upload(f))
 
     st.markdown('---')
@@ -55,7 +55,7 @@ with tab1:
     # 텍스트 분석 진행 과정
     st.subheader('텍스트 분석')
     st.markdown('채용공고 수집과 마찬가지로, 코드를 보여주고 영상 밑에 워드클라우드를 보여줄 예정입니다.')
-    f = 'wanted.mp4'
+    f = 'https://github.com/HongJaeMin/Streamlit_DS/blob/master/wanted.mp4'
     st.video(file_upload(f))
     f = 'https://github.com/HongJaeMin/Streamlit_DS/blob/master/TA_EDA.png'
     st.image(file_upload(f))
