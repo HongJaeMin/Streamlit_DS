@@ -26,7 +26,7 @@ with tab1:
 
     # 크롤링 진행 과정 
     def file_upload(f):
-        file_open = open(f'{f}', 'rb')
+        file_open = open(f'{f}', 'r')
         file_read = file_open.read()
         return file_read
 
@@ -34,19 +34,19 @@ with tab1:
     st.markdown('코드 보여주고, 돌아가는 모습을 보여줄 예정입니다.')
 
     st.markdown('#### 👇 wanted')
-    f = 'C://Users//LG//Videos//Captures//wanted.mp4'
+    f = 'wanted.mp4'
     st.video(file_upload(f))
 
     st.markdown('#### 👇 saramin')
-    f = 'C://Users//LG//Videos//Captures//wanted.mp4'
+    f = 'wanted.mp4'
     st.video(file_upload(f))
 
     st.write('#### 👇 Jobplanet')
-    f = 'C://Users//LG//Videos//Captures//wanted.mp4'
+    f = 'wanted.mp4'
     st.video(file_upload(f))
 
     st.write('#### 👇 Incruit')
-    f = 'C://Users//LG//Videos//Captures//wanted.mp4'
+    f = 'wanted.mp4'
     st.video(file_upload(f))
 
     st.markdown('---')
@@ -55,9 +55,9 @@ with tab1:
     # 텍스트 분석 진행 과정
     st.subheader('텍스트 분석')
     st.markdown('채용공고 수집과 마찬가지로, 코드를 보여주고 영상 밑에 워드클라우드를 보여줄 예정입니다.')
-    f = 'C://Users//LG//Videos//Captures//wanted.mp4'
+    f = 'wanted.mp4'
     st.video(file_upload(f))
-    f = 'C://Users//LG//Videos//Captures//TA_EDA.png'
+    f = 'TA_EDA.png'
     st.image(file_upload(f))
 
 with tab2:
