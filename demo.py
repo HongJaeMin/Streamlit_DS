@@ -55,7 +55,7 @@ with tab1:
     st.subheader('채용공고 수집')
     st.markdown('원티드, 사람인, 잡플래닛, 인쿠르트 버튼을 선택하면, "#### 👇 NNN" 이 문구 띄우고 그 아래에 각각의 코드와 돌아가는 모습 보여주기')
     
-    st.markdown('#### 👇 wanted')
+    # st.markdown('#### 👇 wanted')
     # f = '/BTS2023/JJaemni/DS_Career_Analysis/Streamlit/wanted.mp4'
     # st.video(file_upload(f))
     
