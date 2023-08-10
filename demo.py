@@ -47,10 +47,10 @@ with tab1:
     st.markdown('---')
 
     # 크롤링 진행 과정 
-    def file_upload(f):
-        file_open = open(f'{f}', 'rb')
-        file_read = file_open.read()
-        return file_read
+    # def file_upload(f):
+    #     file_open = open(f'{f}', 'rb')
+    #     file_read = file_open.read()
+    #     return file_read
     
     st.subheader('채용공고 수집')
     st.markdown('원티드, 사람인, 잡플래닛, 인쿠르트 버튼을 선택하면, "#### 👇 NNN" 이 문구 띄우고 그 아래에 각각의 코드와 돌아가는 모습 보여주기')
