@@ -57,7 +57,7 @@ with tab1:
     st.markdown('채용공고 수집과 마찬가지로, 코드를 보여주고 영상 밑에 워드클라우드를 보여줄 예정입니다.')
     f = 'wanted.mp4'
     st.video(file_upload(f))
-    f = 'TA_EDA.png'
+    f = 'https://github.com/HongJaeMin/Streamlit_DS/blob/master/TA_EDA.png'
     st.image(file_upload(f))
 
 with tab2:
