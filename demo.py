@@ -57,7 +57,7 @@ with tab1:
     
     st.markdown('#### 👇 wanted')
     # f = '/BTS2023/JJaemni/DS_Career_Analysis/Streamlit/wanted.mp4'
-    st.video(file_upload(f))
+    # st.video(file_upload(f))
     
     st.markdown('---')
     
@@ -66,7 +66,7 @@ with tab1:
     st.markdown('원티드, 사람인, 잡플래닛, 인쿠르트 버튼을 선택하면, "#### 👇 NNN" 이 문구 띄우고 그 아래에 각각의 코드와 돌아가는 모습 보여주고, 그 밑에 워드클라우드 보여주기')
     
     # f = '/BTS2023/JJaemni/DS_Career_Analysis/Streamlit/wanted.mp4'
-    st.video(file_upload(f))
+    # st.video(file_upload(f))
     
     f = 'https://github.com/HongJaeMin/Streamlit_DS/blob/master/TA_EDA.png'
     st.image(file_upload(f))
