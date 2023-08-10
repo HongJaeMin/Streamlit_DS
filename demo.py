@@ -68,8 +68,8 @@ with tab1:
     # f = '/BTS2023/JJaemni/DS_Career_Analysis/Streamlit/wanted.mp4'
     # st.video(file_upload(f))
     
-    f = 'TA_EDA.png'
-    st.image(file_upload(f))
+    # f = 'TA_EDA.png'
+    # st.image(file_upload(f))
 
 
 with tab2:
