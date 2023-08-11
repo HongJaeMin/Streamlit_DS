@@ -129,4 +129,4 @@ with tab3:
         
 with tab4:
     
-    st.markdown('오늘의 대기업 채용공고 입니다!')
+    st.markdown('대기업 채용공고 입니다!')
