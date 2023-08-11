@@ -6,7 +6,7 @@ st.title('DS Career Analysis')
 st.subheader(':blue[Dais OpenLab]')
 st.caption('Member. 울산대학교 산업경영공학부 윤기창, 홍재민')
 
-tab1, tab2, tab3, tab4 = st.tabs(['🖊️ Info', '🗂️ Skills of DS ▪️ DA ▪️ DE', '🔍 Find My Keyword', '🏙️ 대기업 모음'])
+tab1, tab2, tab3, tab4 = st.tabs(['🖊️ Info', '🗂️ Skills of DS ▪️ DA ▪️ DE', '🔍 최적의 채용공고 추천', '🏙️ 대기업 모음'])
 
 with tab1:
     
