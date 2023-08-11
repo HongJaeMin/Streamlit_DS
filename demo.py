@@ -25,7 +25,6 @@ with tab1:
             - [wanted](https://www.wanted.co.kr/)
             - [saramin](https://www.saramin.co.kr)
             - [Jobplanet](https://www.jobplanet.co.kr)
-            - [Incruit](http://www.incruit.com)
     ''')
     
     # 채용공고 수집 키워드 3가지
