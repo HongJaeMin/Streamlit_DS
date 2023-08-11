@@ -6,7 +6,7 @@ st.title('DS Career Analysis')
 st.subheader(':blue[Dais OpenLab]')
 st.caption('Member. 울산대학교 산업경영공학부 윤기창, 홍재민')
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(['🖊️ Info', '🗂️ Skills of DS ▪️ DA ▪️ DE', '🔍 Find My Keyword', '✨ 채용공고 모음', '🏙️ 대기업 모음'])
+tab1, tab2, tab3, tab4 = st.tabs(['🖊️ Info', '🗂️ Skills of DS ▪️ DA ▪️ DE', '🔍 Find My Keyword', '🏙️ 대기업 모음'])
 
 with tab1:
     
@@ -46,27 +46,26 @@ with tab1:
     
     st.markdown('---')
 
-    # 크롤링 진행 과정 
+    # DS 워드클라우드
     # def file_upload(f):
     #     file_open = open(f'{f}', 'rb')
     #     file_read = file_open.read()
     #     return file_read
     
-    st.subheader('채용공고 수집')
-    st.markdown('원티드, 사람인, 잡플래닛, 인쿠르트 버튼을 선택하면, "#### 👇 NNN" 이 문구 띄우고 그 아래에 각각의 코드와 돌아가는 모습 보여주기')
-    
-    # st.markdown('#### 👇 wanted')
-    # f = '/BTS2023/JJaemni/DS_Career_Analysis/Streamlit/wanted.mp4'
-    # st.video(file_upload(f))
+    st.subheader('데이터 사이언티스트 Wordcloud')
+    st.markdown('이미지')
     
     st.markdown('---')
+
+    st.subheader('데이터 애널리스트 Wordcloud')
+    st.markdown('이미지')
     
-    # 텍스트 분석 진행 과정
-    st.subheader('텍스트 분석')
-    st.markdown('원티드, 사람인, 잡플래닛, 인쿠르트 버튼을 선택하면, "#### 👇 NNN" 이 문구 띄우고 그 아래에 각각의 코드와 돌아가는 모습 보여주고, 그 밑에 워드클라우드 보여주기')
+    st.markdown('---')
+
+    st.subheader('데이터 엔지니어 Wordcloud')
+    st.markdown('이미지')
     
-    # f = '/BTS2023/JJaemni/DS_Career_Analysis/Streamlit/wanted.mp4'
-    # st.video(file_upload(f))
+    st.markdown('---')
     
     # f = 'TA_EDA.png'
     # st.image(file_upload(f))
@@ -79,14 +78,19 @@ with tab2:
     ('데이터 사이언티스트', '데이터 애널리스트', '데이터 엔지니어'))
 
     if genre == '데이터 사이언티스트':
-        st.markdown('버튼 선택 후 뜨도록')
+        st.markdown('버튼 선택 후 1가지 키워드 뜨도록')
         st.markdown('''
             0. 개발 언어
                 - Python, ...
         ''')
+
+        st.markdown('3가지 다 워드클라우드 띄우기')
+        
         st.markdown('''
             1. 역량
-                - 영어 및 한글
+                - 자격요건
+                - 우대사항
+                - 기술스택
         ''')
 
     elif genre == '데이터 애널리스트':
@@ -96,7 +100,9 @@ with tab2:
         ''')
         st.markdown('''
             1. 역량
-                - 영어 및 한글
+                - 자격요건
+                - 우대사항
+                - 기술스택
         ''')
 
     else:
@@ -106,7 +112,9 @@ with tab2:
         ''')
         st.markdown('''
             1. 역량
-                - 영어 및 한글
+                - 자격요건
+                - 우대사항
+                - 기술스택
         ''')
 
 
@@ -117,31 +125,9 @@ with tab3:
         ['정형데이터 분석', '이미지 분석', '텍스트 분석', '웹 제작', '의사소통']
     )
     st.write('나의 역량 👇', options)
-    st.markdown('나의 역량이 보인 후에, 이 위치 쯤에 버튼을 생성하고, 버튼을 누르면 자신에게 맞는 DS DA DE 키워드가 나오게 하기')
-    
-    
+    st.markdown('역량에 맞게 채용공고 보여주기')
+            
+        
 with tab4:
-    
-    genre = st.radio(
-    '관심있는 키워드를 선택해주세요!',
-    ('데이터 사이언티스트', '데이터 애널리스트', '데이터 엔지니어'))
-
-    if genre == '데이터 사이언티스트':
-        st.markdown('''
-            버튼 선택 후 채용공고 뜨도록 
-        ''')
-
-    elif genre == '데이터 애널리스트':
-        st.markdown('''
-            버튼 선택 후 채용공고 뜨도록
-        ''')
-
-    else:
-        st.markdown('''
-            버튼 선택 후 채용공고 뜨도록
-        ''')
-        
-        
-with tab5:
     
     st.markdown('오늘의 대기업 채용공고 입니다!')
